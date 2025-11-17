@@ -7,8 +7,6 @@ import React, { useEffect, useState } from "react";
 
 
 import Image from "next/image";
-import logo from "@/assets/img/logo.svg";
-import Logo_white from "@/assets/img/Logo_white.png";
 
 interface DataType {
 	id: number;
@@ -28,34 +26,7 @@ const menu_data: DataType[] = [
 		id: 1,
 		title: "Home",
 		link: "/",
-		has_dropdown: true,
-		sub_menu: [
-			{
-				id: 1,
-				title: "Digital Agency",
-				link: "/",
-			},
-			{
-				id: 2,
-				title: "Startup Agency",
-				link: "/startup-agency",
-			},
-			{
-				id: 3,
-				title: "Design Studio",
-				link: "/design-studio",
-			},
-			{
-				id: 4,
-				title: "Creative Protfolio",
-				link: "/creative-protfolio",
-			},
-			{
-				id: 5,
-				title: "Marketing Agency",
-				link: "/marketing-agency",
-			},
-		]
+		has_dropdown: false
 	},
 	{
 		id: 2,
@@ -65,104 +36,28 @@ const menu_data: DataType[] = [
 	},
 	{
 		id: 3,
-		title: "Pages",
-		link: "/about",
-		has_dropdown: true,
-		sub_menu: [
-			{
-				id: 1,
-				title: "About",
-				link: "/about",
-			},
-			{
-				id: 2,
-				title: "Team",
-				link: "/team",
-			},
-			{
-				id: 3,
-				title: "Team Details",
-				link: "/team-details",
-			},
-			{
-				id: 4,
-				title: "Contact",
-				link: "/contact",
-			},
-			{
-				id: 5,
-				title: "Faq",
-				link: "/faq",
-			},
-			{
-				id: 6,
-				title: "Error",
-				link: "/error",
-			}
-		]
+		title: "Services",
+		link: "/service",
+		has_dropdown: false
 	},
 	{
 		id: 4,
-		title: "Services",
-		link: "/service",
-		has_dropdown: true,
-		sub_menu: [
-			{
-				id: 1,
-				title: "Services",
-				link: "/service",
-			},
-			{
-				id: 2,
-				title: "Services Details",
-				link: "/service-details",
-			}
-		]
+		title: "Portfolio",
+		link: "/portfolio",
+		has_dropdown: false
 	},
 	{
 		id: 5,
-		title: "Portfolio",
-		link: "/portfolio",
-		has_dropdown: true,
-		sub_menu: [
-			{
-				id: 1,
-				title: "Portfolio",
-				link: "/portfolio",
-			},
-			{
-				id: 2,
-				title: "Portfolio Details",
-				link: "/portfolio-details",
-			}
-		]
+		title: "Blog",
+		link: "/blog",
+		has_dropdown: false
 	},
 	{
 		id: 6,
-		title: "Blog",
-		link: "/blog",
-		has_dropdown: true,
-		sub_menu: [
-			{
-				id: 1,
-				title: "Blog",
-				link: "/blog",
-			},
-			{
-				id: 2,
-				title: "Blog Details",
-				link: "/blog-details",
-			}
-		]
-	},
-	{
-		id: 7,
 		title: "Contact",
 		link: "/contact",
-		has_dropdown: false,
+		has_dropdown: false
 	}
-
-
 ]
 
 
@@ -233,14 +128,13 @@ const HeaderOne = () => {
 				<div className="cs_main_header">
 					<div className="container">
 						<div className="cs_main_header_in">
-							<div className="cs_main_header_left">
-								<Link className="cs_site_branding logo-dark" href="/">
-									<Image src={logo} alt="Logo" />
-								</Link>
-								<Link className="cs_site_branding logo-white" href="/">
-									<Image src={Logo_white} alt="Logo" />
-								</Link>
-							</div>
+						<div className="cs_main_header_left">
+							<Link className="cs_site_branding" href="/" style={{display: 'flex', alignItems: 'center', height: '50px'}}>
+								<span style={{fontSize: '28px', fontWeight: '700', color: '#1a1a1a', letterSpacing: '1px', fontFamily: 'inherit'}}>
+									Indalio
+								</span>
+							</Link>
+						</div>
 							<div className="cs_main_header_right">
 								<div className="cs_nav cs_medium">
 									<MobileMenu active={active} navTitle={navTitle} openMobileMenu={openMobileMenu} />
@@ -267,8 +161,10 @@ const HeaderOne = () => {
 				<button className="cs_close" onClick={handleActive}></button>
 				<div className="cs_side_header_overlay"></div>
 				<div className="cs_side_header_in">
-					<Link className="cs_site_branding" href="/">
-						<Image src={Logo_white} alt="Logo" />
+					<Link className="cs_site_branding" href="/" style={{display: 'flex', alignItems: 'center'}}>
+						<span style={{fontSize: '28px', fontWeight: '700', color: '#ffffff', letterSpacing: '1px', fontFamily: 'inherit'}}>
+							Indalio
+						</span>
 					</Link>
 					<div className="row align-items-end">
 						<div className="col-7">
@@ -306,12 +202,12 @@ const HeaderOne = () => {
 												d="M7 0.0195312C3.14027 0.0195312 0 3.01027 0 6.68621C0 7.78973 0.289693 8.88387 0.840408 9.85434L6.6172 17.8047C6.69411 17.9373 6.84065 18.0195 7 18.0195C7.15935 18.0195 7.30589 17.9373 7.3828 17.8047L13.1617 9.85105C13.7103 8.88387 14 7.78969 14 6.68617C14 3.01027 10.8597 0.0195312 7 0.0195312ZM7 10.0195C5.07014 10.0195 3.50002 8.52418 3.50002 6.68621C3.50002 4.84824 5.07014 3.35289 7 3.35289C8.92986 3.35289 10.5 4.84824 10.5 6.68621C10.5 8.52418 8.92986 10.0195 7 10.0195Z"
 												fill="white"></path>
 										</svg>
-										<span className="ms-2">46 JOHN ST TORONTO ON <br />
-											&nbsp; &nbsp; &nbsp; &nbsp; M5V 3W2</span>
+										<span className="ms-2">Jaspal Bangar, Ind Area C<br />
+										&nbsp; &nbsp; &nbsp; &nbsp; Ludhiana 141122</span>
 									</p>
 
 									<h4 className="cs_phone_number">
-										<a href="tel:(406)555-0120">
+										<a href="tel:+919988092664">
 											<svg width="35" height="35" viewBox="0 0 18 19" fill="none"
 												xmlns="http://www.w3.org/2000/svg">
 												<path
@@ -323,7 +219,7 @@ const HeaderOne = () => {
 												<path
 													d="M15.1294 2.93344C13.5338 1.33791 11.5151 0.330398 9.28656 0.0195312L9.0918 1.40907C11.0169 1.67874 12.7623 2.55141 14.1406 3.92597C15.4477 5.23311 16.3054 6.88483 16.6163 8.70134L17.9983 8.46538C17.635 6.36047 16.6425 4.45033 15.1294 2.93344Z"
 													fill="white"></path>
-											</svg><span className="ms-2">(406)555-0120</span></a>
+												</svg><span className="ms-2">+919988092664</span></a>
 									</h4>
 
 									<ul className="cs_social_link">
@@ -334,9 +230,9 @@ const HeaderOne = () => {
 									</ul>
 
 									<hr className="mt-2 me-5 mb-2" />
-									<h2>
-										<a href="mailto:info@email.com" className="cs_primary_font cs_text_btn"><span
-											className="cs_black">info@email.com</span></a>
+									<h2 style={{fontSize: '16px', wordBreak: 'break-word', lineHeight: '1.5'}}>
+										<a href="mailto:business@indalio.com" className="cs_primary_font cs_text_btn" style={{display: 'block'}}><span
+											className="cs_black">business@indalio.com</span></a>
 									</h2>
 								</div>
 							</div>

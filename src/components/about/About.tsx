@@ -1,10 +1,10 @@
  
 
 import React from 'react';
-import agency_story_1 from "@/assets/img/agency_story_1.jpg"
-import agency_story_2 from "@/assets/img/agency_story_2.jpg"
-import agency_story_4 from "@/assets/img/agency_story_4.jpg"
-import agency_story_3 from "@/assets/img/agency_story_3.jpg"
+import agency_story_1 from "@/assets/img/monitor-arm-15.png"
+import agency_story_2 from "@/assets/img/monitor-arm-13.png"
+import agency_story_4 from "@/assets/img/monitor-arm-19.png"
+import agency_story_3 from "@/assets/img/monitor-arm-1.jpg"
 import Image from 'next/image';
 
 
@@ -12,11 +12,13 @@ interface DataType {
   subtitle: string;
   title: string;
   des: string;
+  des2?: string;
 }
 const about_content: DataType = {
-  subtitle: `Our Agency Story`,
-  title: `How Our Agency is Pushing the Boundaries of Online Marketing and Design`,
-  des: `Digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital to drive growth and reach your goals.`,
+  subtitle: `Our Story`,
+  title: `Building India's Most Trusted Brand for Workspace Accessories`,
+  des: `INDALIO was created with a simple purpose — to build workspace products that are strong, functional, and designed for everyday use. The journey began in Ludhiana, Punjab, where our parent company had been supplying precision-fabricated parts to local industries. Recognizing the need for durable, ergonomic, and affordable desk accessories made in India, we created a dedicated brand focused entirely on modern workstation solutions.`,
+  des2: `Starting with small batches of monitor arms and cable organizers, INDALIO quickly gained trust among e-commerce sellers, office furniture manufacturers, and corporate buyers. Today, we stand for strong build quality, smooth ergonomics, modern engineering, and long-lasting performance. Our mission remains unchanged: to design workspace accessories that combine strength, comfort, and innovation — built proudly in India.`,
 }
 const { subtitle, title, des } = about_content
 
@@ -57,7 +59,7 @@ const About = () => {
                       {des}
                     </p>
                     <p className="cs_ternary_color">
-                      {des}
+                      {about_content.des2}
                     </p>
                   </div>
                 </div>

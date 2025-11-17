@@ -4,54 +4,33 @@ import React from 'react';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import blog_img_1 from "@/assets/img/post_1.jpg";
-import blog_img_2 from "@/assets/img/post_2.jpg";
-import blog_img_3 from "@/assets/img/post_3.jpg";
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 
 
 interface DataType {
   id: number;
-  img: StaticImageData;
+  img: string;
   title: string;
   des: string;
 }[]
 const blog_data: DataType[] = [
   {
     id: 1,
-    img: blog_img_1,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    img: '/assets/img/monitor-arm-8.png',
+    title: `Benefits of Ergonomic Monitor Arms`,
+    des: `Discover how gas spring monitor arms can improve workplace ergonomics and boost productivity in modern offices.`,
   },
   {
     id: 2,
-    img: blog_img_2,
-    title: `How a Creative Agency Can Help?`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    img: '/assets/img/monitor-arm-10.png',
+    title: `Cable Management Solutions Guide`,
+    des: `Learn effective cable management strategies to maintain a clean, organized, and professional workspace environment.`,
   },
   {
     id: 3,
-    img: blog_img_3,
-    title: `Maximizing Your Marketing Budget`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
-  },
-  {
-    id: 4,
-    img: blog_img_1,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
-  },
-  {
-    id: 5,
-    img: blog_img_2,
-    title: `How a Creative Agency Can Help?`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
-  },
-  {
-    id: 6,
-    img: blog_img_3,
-    title: `Maximizing Your Marketing Budget`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    img: '/assets/img/monitor-arm-12.png',
+    title: `Choosing the Right Monitor Arm`,
+    des: `A comprehensive guide to selecting the perfect monitor arm for your workspace requirements and setup configuration.`,
   },
 
 ]
@@ -75,15 +54,15 @@ const BlogHomeOne = ({ style_2, style_3 }: any) => {
             <div className="cs_section_heading cs_style_1 cs_type_1">
               <div className="cs_section_heading_text">
                 <div className="cs_section_subtitle anim_div_ShowZoom">
-                  Our Blog
+                  Resources & Insights
                 </div>
                 <h2 className="cs_section_title anim_heading_title">
-                  New Day <br />New Inspiration
+                  Ergonomic Solutions <br />& Workspace Tips
                 </h2>
               </div>
               <div className="cs_section_heading_right cs_btn_anim">
                 <Link href="/blog" className="cs_btn cs_style_1">
-                  <span>View All Blogs</span>
+                  <span>View All Resources</span>
                   <svg width="19" height="13" viewBox="0 0 19 13" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -95,21 +74,12 @@ const BlogHomeOne = ({ style_2, style_3 }: any) => {
             </div>
           }
           <div className="cs_height_100 cs_height_lg_60"></div>
-          <Swiper
-            loop={true}
-            speed={1000}
-            spaceBetween={30}
-            slidesPerView={"auto"}
-            pagination={{
-              el: ".cs_pagination",
-              clickable: true
-            }}
-            className={`cs_slider cs_slider_3 anim_blog ${style_2 ? '' : 'style_slider'}`}>
+          <div className="row">
             {blog_data.map((item, i) => (
-              <SwiperSlide key={i} className="swiper-slide">
+              <div key={i} className="col-lg-4 col-md-6">
                 <div className="cs_post cs_style_1">
                   <Link href="/blog-details" className="cs_post_thumb">
-                    <Image src={item.img} alt="image-here" />
+                    <Image src={item.img} alt="image-here" width={800} height={600} style={{width: '100%', height: 'auto', objectFit: 'cover'}} />
                   </Link>
                   <div className="cs_post_info">
                     <h2 className="cs_post_title">
@@ -120,10 +90,9 @@ const BlogHomeOne = ({ style_2, style_3 }: any) => {
                     </p>
                   </div>
                 </div>
-              </SwiperSlide>
+              </div>
             ))}
-
-          </Swiper>
+          </div>
         </div>
       </section>
       {style_2 ? null : style_3 ? null : <div className="cs_height_150 cs_height_lg_60"></div>}

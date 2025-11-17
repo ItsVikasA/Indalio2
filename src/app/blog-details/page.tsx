@@ -10,7 +10,8 @@ import React from 'react';
 
 
 // export const metadata = {
-//   title: "Blog Details Vixan - Digital  Creative Agency Next js Template",
+//   title: "Article - Indalio Insights | Ergonomic Workspace Solutions",
+//   description: "Read detailed articles about ergonomic workspace design, monitor arm technology, and productivity tips from Indalio experts.",
 // };
 
 

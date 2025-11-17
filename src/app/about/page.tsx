@@ -16,7 +16,8 @@ import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne'; 
 
 // export const metadata = {
-//   title: "About Vixan - Digital  Creative Agency Next js Template",
+//   title: "About Indalio - Premium Workspace Accessories Manufacturer | Ludhiana",
+//   description: "Learn about Indalio's commitment to manufacturing high-quality ergonomic workspace solutions. Precision engineering and quality control from Ludhiana, India.",
 // };
 
 const index = () => { 

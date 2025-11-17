@@ -12,22 +12,22 @@ interface DataType {
 
 const about_slider: DataType[] = [
   {
-    img: "/assets/img/about_img.jpg",
-    sub_title: "Our Mission",
-    title: `Unleashing Creativity to Transform Your Business`,
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    img: "/assets/img/monitor-arm-15.png",
+    sub_title: "About Indalio",
+    title: `Engineered in Ludhiana for Modern Workspaces`,
+    des: `Indalio specializes in premium workspace accessories engineered in Ludhiana. We design and manufacture high-quality gas spring monitor arms, wall-mounted solutions, and cable management systems. Trusted by corporate offices, IT companies, and traders nationwide for ergonomic excellence.`,
   },
   {
-    img: "/assets/img/about_img.jpg",
+    img: "/assets/img/monitor-arm-13.png",
     sub_title: "Our Mission",
-    title: `Unleashing Creativity to Transform Your Business`,
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    title: `Transforming Workspaces with Ergonomic Innovation`,
+    des: `Our mission is to enhance workspace productivity and comfort through innovative ergonomic solutions. Every product is designed with precision engineering to provide smooth adjustability, durability, and modern aesthetics for professional environments.`,
   },
   {
-    img: "/assets/img/about_img.jpg",
-    sub_title: "Our Mission",
-    title: `Unleashing Creativity to Transform Your Business`,
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    img: "/assets/img/monitor-arm-19.png",
+    sub_title: "Quality Commitment",
+    title: `Premium Engineering for Professional Excellence`,
+    des: `From design to manufacturing, we maintain the highest standards of quality. Our products undergo rigorous testing to ensure reliability, smooth operation, and long-lasting performance in demanding professional environments.`,
   },
 ]
 

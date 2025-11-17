@@ -58,7 +58,7 @@ const BrandHomeOne = ({ style_2 }: any) => {
         <>
           <div className="cs_height_150 cs_height_lg_60"></div>
           <p className="text-center cs_font_18 cs_normal">
-            130+ Our Client & Partner We Are Working Together
+            Trusted by Leading Indian Companies & Office Furniture Partners
           </p>
           <div className="cs_height_100 cs_height_lg_60"></div>
         </>

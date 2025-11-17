@@ -14,19 +14,19 @@ interface DataType {
 
 const hero_slider: DataType[] = [
   {
-    img: `/assets/img/hero_img_1.jpg`,
+    img: `/assets/img/indalio-hero-bg.jpg`,
+    sub_title: "Indalio",
+    title: "Ergonomic Monitor Arms & Cable Management Solutions",
+    des: `Premium gas spring monitor arms engineered in Ludhiana. Trusted by corporate offices, IT companies & traders nationwide.`
+  },
+  {
+    img: `/assets/img/indalio-hero-bg.jpg`,
     sub_title: "Creative Agency",
     title: "Expert Digital Services for Your Own Business",
     des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`
   },
   {
-    img: `/assets/img/hero_img_1.jpg`,
-    sub_title: "Creative Agency",
-    title: "Expert Digital Services for Your Own Business",
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`
-  },
-  {
-    img: `/assets/img/hero_img_1.jpg`,
+    img: `/assets/img/indalio-hero-bg.jpg`,
     sub_title: "Creative Agency",
     title: "Expert Digital Services for Your Own Business",
     des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`

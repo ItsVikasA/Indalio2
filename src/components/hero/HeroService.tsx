@@ -12,33 +12,23 @@ interface DataType {
 const banner_data:DataType[] = [
   {
     id: 1,
-    title: "Application Development",
-    description: "Welcome to our digital agency We specialize in helping businesses like yours succeed online. From website design and development to digital marketing agency.",
+    title: "Gas Spring Single Monitor Arm",
+    description: "Designed with premium gas-spring technology, this single arm allows effortless height adjustment, tilt, swivel, and rotation. Compatible with 17-32 inch monitors and equipped with internal cable routing for a clean desk setup.",
   },
   {
     id: 2,
-    title: "Web Development",
-    description: "Welcome to our digital agency We specialize in helping businesses like yours succeed online. From website design and development to digital marketing agency.",
+    title: "Gas Spring Dual Monitor Arm",
+    description: "A robust dual-monitor solution engineered for productivity. Both arms move independently, offering full adjustability for 2 displays up to 32 inches. Built with strong steel, smooth gas springs, and VESA 75/100 compatibility.",
   },
   {
     id: 3,
-    title: "Digital Services",
-    description: "Welcome to our digital agency We specialize in helping businesses like yours succeed online. From website design and development to digital marketing agency.",
+    title: "Wall-Mounted Monitor Arm",
+    description: "This wall-mounted model provides maximum space-saving installation with full-motion functionality. Perfect for small desks, tracking stations, CCTV setups, and minimalist interiors. Supports 17-32 inch displays with high load capacity.",
   },
   {
     id: 4,
-    title: "Digital Product Design",
-    description: "Welcome to our digital agency We specialize in helping businesses like yours succeed online. From website design and development to digital marketing agency.",
-  },
-  {
-    id: 5,
-    title: "Digital Marketing",
-    description: "Welcome to our digital agency We specialize in helping businesses like yours succeed online. From website design and development to digital marketing agency.",
-  },
-  {
-    id: 6,
-    title: "IOS App Development",
-    description: "Welcome to our digital agency We specialize in helping businesses like yours succeed online. From website design and development to digital marketing agency.",
+    title: "Spinal Cable Organizer",
+    description: "A flexible, modular cable spine that routes wires vertically from desk to floor. Made from durable ABS segments with a weighted base, it keeps cables organized, protected, and easily adjustable.",
   },
 
 ]
@@ -52,7 +42,7 @@ const HeroService = () => {
           <div className="cs_section_heading cs_style_1">
             <div className="cs_section_heading_text">
               <h2 className="cs_section_title anim_word_writting">
-                Transform Your Online Presence with Our Digital Agency Services
+                Premium Ergonomic Workspace Accessories for Enhanced Productivity
               </h2>
             </div>
           </div>
@@ -61,7 +51,7 @@ const HeroService = () => {
             {banner_data.map((item, i) =>
               <div key={i} className="cs_card cs_style_1 anim_div_ShowDowns">
                 <div className="cs_card_left">
-                  <div className="cs_card_number cs_primary_font" style={{ backgroundImage: `url('/assets/img/hero_img_1.jpg')` }}>
+                  <div className="cs_card_number cs_primary_font" style={{ backgroundImage: `url('/assets/img/monitor-arm-${i + 2}.jpg')` }}>
                     0{i + 1}
                   </div>
                 </div>

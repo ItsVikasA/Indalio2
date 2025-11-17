@@ -4,15 +4,15 @@ import React from 'react';
 import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
 
-import blog_img_1 from "@/assets/img/post_1.jpg";
-import blog_img_2 from "@/assets/img/post_2.jpg";
-import blog_img_3 from "@/assets/img/post_3.jpg";
-import blog_img_4 from "@/assets/img/post_4.jpg";
-import blog_img_5 from "@/assets/img/post_5.jpg";
-import blog_img_6 from "@/assets/img/post_6.jpg";
-import blog_img_7 from "@/assets/img/post_7.jpg";
-import blog_img_8 from "@/assets/img/post_8.jpg";
-import blog_img_9 from "@/assets/img/post_9.jpg";
+import blog_img_1 from "@/assets/img/monitor-arm-11.png";
+import blog_img_2 from "@/assets/img/monitor-arm-12.png";
+import blog_img_3 from "@/assets/img/monitor-arm-13.png";
+import blog_img_4 from "@/assets/img/monitor-arm-1.jpg";
+import blog_img_5 from "@/assets/img/monitor-arm-15.png";
+import blog_img_6 from "@/assets/img/monitor-arm-16.png";
+import blog_img_7 from "@/assets/img/monitor-arm-17.png";
+import blog_img_8 from "@/assets/img/monitor-arm-18.png";
+import blog_img_9 from "@/assets/img/monitor-arm-19.png";
 
 
 interface DataType {
@@ -26,56 +26,56 @@ const blog_data: DataType[] = [
   {
     id: 1,
     img: blog_img_1,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Ergonomic Benefits of Monitor Arms`,
+    des: `Discover how gas spring monitor arms improve posture, reduce neck strain, and boost workplace productivity with adjustable positioning.`,
   },
   {
     id: 2,
     img: blog_img_2,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Complete Guide to Monitor Mounting Solutions`,
+    des: `From desk clamps to wall mounts - learn which monitor arm type suits your workspace and maximizes desk space efficiency.`,
   },
   {
     id: 3,
     img: blog_img_3,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Cable Management Best Practices`,
+    des: `Professional cable organization techniques using spinal organizers to maintain clean, tangle-free workspaces that look premium.`,
   },
   {
     id: 4,
     img: blog_img_4,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Dual Monitor Setup: Productivity Guide`,
+    des: `Master the art of dual-screen workflows with proper monitor arm configuration for developers, traders, and creative professionals.`,
   },
   {
     id: 5,
     img: blog_img_5,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `VESA Standards Explained: 75 vs 100`,
+    des: `Understanding VESA mounting patterns and compatibility ensures you choose the right monitor arm for your display setup.`,
   },
   {
     id: 6,
     img: blog_img_6,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Gas Spring Technology in Monitor Arms`,
+    des: `Explore how premium gas springs enable smooth, effortless height adjustment and superior weight capacity in modern monitor arms.`,
   },
   {
     id: 7,
     img: blog_img_7,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Office Ergonomics: Setup Essentials`,
+    des: `Create the perfect ergonomic workstation with monitor arms, proper desk height, and accessories that reduce workplace injuries.`,
   },
   {
     id: 8,
     img: blog_img_8,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Wall-Mounted vs Desk-Mounted Arms`,
+    des: `Compare installation methods, space efficiency, and use cases for wall-mounted and desk-mounted monitor arm solutions.`,
   },
   {
     id: 9,
     img: blog_img_9,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Indalio Manufacturing Excellence`,
+    des: `Behind the scenes: How Indalio engineers premium workspace accessories in Ludhiana with precision manufacturing and quality control.`,
   },
 ]
 
@@ -91,7 +91,7 @@ const BlogArea = () => {
             <div className="cs_section_heading cs_style_1 cs_type_1">
               <div className="cs_section_heading_text">
                 <h2 className="cs_section_title anim_heading_title">
-                  New Day <br /> New Inspiration
+                  Indalio Insights <br /> Workspace Innovation Hub
                 </h2>
               </div>
             </div>
@@ -125,13 +125,6 @@ const BlogArea = () => {
 
           </div>
           <div className="cs_height_100 cs_height_lg_60"></div>
-          <div>
-            <div className="cs_hero_btn_wrap text-center">
-              <div className="cs_round_btn_wrap">
-                <a href="#" className="cs_hero_btn cs_round_btn btn-item"><span></span> Load More</a>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </>

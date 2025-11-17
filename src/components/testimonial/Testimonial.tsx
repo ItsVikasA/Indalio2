@@ -17,21 +17,21 @@ interface DataType {
 const testimonial_data: DataType[] = [
   {
     img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From UK`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    name: `Rajesh Kumar`,
+    location: `IT Company, Delhi`,
+    des: `"Indalio's gas spring monitor arms have transformed our office setup. The smooth adjustment and premium build quality are exactly what we needed for our modern workspace. Highly recommended for corporate environments."`,
   },
   {
     img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From USA`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    name: `Priya Sharma`,
+    location: `Corporate Office, Mumbai`,
+    des: `"We purchased multiple monitor arms from Indalio for our office expansion. The ergonomic design and cable management features have significantly improved our workspace organization. Excellent product quality!"`,
   },
   {
     img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From Astrolia`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    name: `Amit Patel`,
+    location: `Trading Firm, Ludhiana`,
+    des: `"Outstanding quality and engineering! Indalio's wall-mounted solutions are perfect for our multi-monitor trading setup. The local manufacturing in Ludhiana ensures quick support and excellent service."`,
   },
 ]
 
@@ -77,7 +77,7 @@ const Testimonial = ({ style_service }: any) => {
             <div className="col-lg-7 offset-lg-1">
               <div className={`cs_testimonial ${style_service ? 'cs_style_2' : 'cs_style_1 cs_color_1'}`}>
                 <h2 className="cs_testimonial_title">
-                  Some Of Our Respected Happy Clients Says
+                  What Our Satisfied Clients Say About Indalio
                 </h2>
                 <Swiper
                   loop={true}

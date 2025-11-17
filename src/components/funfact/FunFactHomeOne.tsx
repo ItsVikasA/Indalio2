@@ -13,23 +13,23 @@ interface DataType {
 const counter_data: DataType[] = [
   {
     id: 1,
-    title: `Project Completed`,
-    number: 91,
+    title: `Products Delivered`,
+    number: 5,
   },
   {
     id: 2,
-    title: `Happy customers`,
-    number: 2,
+    title: `Satisfied Clients`,
+    number: 500,
   },
   {
     id: 3,
-    title: `Years Experiences`,
-    number: 21,
+    title: `Years in Business`,
+    number: 8,
   },
   {
     id: 4,
-    title: `Awards Achievement`,
-    number: 42,
+    title: `Cities Served`,
+    number: 25,
   },
 ]
 

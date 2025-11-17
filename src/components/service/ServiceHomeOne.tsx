@@ -12,23 +12,18 @@ interface DataType {
 const service_data: DataType[] = [
   {
     id: 1,
-    title: `Application Development`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
+    title: `Gas Spring Monitor Arms`,
+    des: `Premium ergonomic gas spring monitor arms engineered for optimal viewing comfort. Features smooth height adjustment, 360° rotation, and tilt functionality. Perfect for modern workspaces requiring flexibility and durability.`
   },
   {
     id: 2,
-    title: `Web Development`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
+    title: `Wall-Mounted Solutions`,
+    des: `Space-saving wall-mounted monitor arms designed for maximum workspace efficiency. Ideal for professional setups and multi-monitor configurations. Built with robust engineering for long-lasting performance.`
   },
   {
     id: 3,
-    title: `Digital Services`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
-  },
-  {
-    id: 4,
-    title: `Digital Product Design`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
+    title: `Cable Management Systems`,
+    des: `Professional cable management systems to maintain a clean, organized workspace. Integrated cable routing channels and clips keep wires hidden and accessible. Essential for modern professional environments.`
   },
 
 ]
@@ -43,10 +38,10 @@ const ServiceHomeOne = () => {
           <div className="cs_section_heading cs_style_1 cs_type_1 cs_color_1">
             <div className="cs_section_heading_text">
               <div className="cs_section_subtitle anim_div_ShowZoom">
-                Our Services
+                Our Products
               </div>
               <h2 className="cs_section_title anim_heading_title">
-                Comprehensive Digital Strategy Transformation
+                Premium Ergonomic Workspace Solutions
               </h2>
             </div>
             <div className="cs_section_heading_right cs_btn_anim">
@@ -66,7 +61,7 @@ const ServiceHomeOne = () => {
             {service_data.map((item, i) => (
               <div key={i} className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
                 <div className="cs_card_left">
-                  <div className="cs_card_number cs_primary_font" style={{ backgroundImage: `url(/assets/img/hero_img_1.jpg)` }}>
+                  <div className="cs_card_number cs_primary_font" style={{ backgroundImage: `url(/assets/img/monitor-arm-${i === 0 ? '15' : i === 1 ? '13' : '19'}.png)` }}>
                     0{i + 1}
                   </div>
                 </div>

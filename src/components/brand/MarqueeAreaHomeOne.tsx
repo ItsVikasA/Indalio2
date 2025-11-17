@@ -9,10 +9,10 @@ const MarqueeAreaHomeOne = () => {
       <div className="cs_moving_section_wrap cs_bold">
         <div className="cs_moving_section_in">
           <div className="cs_moving_section cs_stroke_text">
-            More Creativity Power With Vixan Agency
+            Premium Ergonomic Solutions By Indalio • Gas Spring Monitor Arms • Cable Management Systems
           </div>
           <div className="cs_moving_section cs_stroke_text">
-            More Creativity Power With Vixan Agency
+            Premium Ergonomic Solutions By Indalio • Gas Spring Monitor Arms • Cable Management Systems
           </div>
         </div>
       </div>

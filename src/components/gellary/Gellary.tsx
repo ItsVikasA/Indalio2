@@ -2,9 +2,9 @@
 'use client'
 
 import React from 'react';
-import gellary_img_1 from "@/assets/img/about_gallery_1.jpg";
-import gellary_img_2 from "@/assets/img/about_gallery_2.jpg";
-import gellary_img_3 from "@/assets/img/about_gallery_3.jpg";
+import gellary_img_1 from "@/assets/img/monitor-arm-16.png";
+import gellary_img_2 from "@/assets/img/monitor-arm-18.png";
+import gellary_img_3 from "@/assets/img/monitor-arm-19.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
 
@@ -27,9 +27,9 @@ const Gellary = ({style_2}: any) => {
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_type_1">
             <div className="cs_section_heading_text">
-              <div className="cs_section_subtitle anim_div_ShowZoom">Gallery</div>
+              <div className="cs_section_subtitle anim_div_ShowZoom">Product Gallery</div>
               <h2 className="cs_section_title anim_heading_title">
-                Inspiring Creativity A Gallery of Work from Our Creative Agency
+                Precision Engineering - Showcase of Indalio's Premium Workspace Solutions
               </h2>
             </div>
           </div>

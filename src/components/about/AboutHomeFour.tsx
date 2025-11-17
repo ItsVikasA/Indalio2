@@ -10,7 +10,7 @@ const AboutHomeFour = () => {
 						<div className="cs_section_heading cs_style_1">
 							<div className="cs_section_heading_text">
 								<h3 className="cs_section_title_3 anim_heading_title">
-									We'd be interested in learning more about your project.
+									Let's discuss your workspace requirements and ergonomic needs.
 								</h3>
 							</div>
 							<div className="cs_section_heading_right cs_btn_anim">

@@ -1,7 +1,7 @@
 
-import blog_img_1 from "@/assets/img/post_1.jpg";
-import blog_img_2 from "@/assets/img/post_2.jpg";
-import blog_img_3 from "@/assets/img/post_3.jpg"; 
+import blog_img_1 from "@/assets/img/monitor-arm-11.png";
+import blog_img_2 from "@/assets/img/monitor-arm-13.png";
+import blog_img_3 from "@/assets/img/monitor-arm-15.png"; 
 import { StaticImageData } from "next/image";
 
 
@@ -17,38 +17,38 @@ const blog_data: DataType[] = [
   {
     id: 1,
     img: blog_img_1,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Ergonomic Benefits of Monitor Arms`,
+    des: `Discover how gas spring monitor arms improve posture, reduce neck strain, and boost workplace productivity.`,
   },
   {
     id: 2,
     img: blog_img_2,
-    title: `How a Creative Agency Can Help?`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Complete Guide to Monitor Mounting Solutions`,
+    des: `From desk clamps to wall mounts - learn which monitor arm type suits your workspace best.`,
   },
   {
     id: 3,
     img: blog_img_3,
-    title: `Maximizing Your Marketing Budget`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Cable Management Best Practices`,
+    des: `Professional cable organization techniques using spinal organizers for clean, tangle-free workspaces.`,
   },
   {
     id: 4,
     img: blog_img_1,
-    title: `Reasons Business Needs a Agency`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Dual Monitor Setup: Productivity Guide`,
+    des: `Master dual-screen workflows with proper monitor arm configuration for professionals.`,
   },
   {
     id: 5,
     img: blog_img_2,
-    title: `How a Creative Agency Can Help?`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Gas Spring Technology Explained`,
+    des: `Explore how premium gas springs enable smooth, effortless height adjustment in monitor arms.`,
   },
   {
     id: 6,
     img: blog_img_3,
-    title: `Maximizing Your Marketing Budget`,
-    des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
+    title: `Indalio Manufacturing Excellence`,
+    des: `Behind the scenes: How Indalio engineers premium workspace accessories with precision manufacturing.`,
   },
 ]
 

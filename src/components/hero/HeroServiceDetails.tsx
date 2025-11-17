@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import banner_img from '@/assets/img/service_details_banner.jpg';
+import banner_img from '@/assets/img/monitor-arm-15.png';
 
 
 interface DataType {
@@ -10,13 +10,13 @@ interface DataType {
   features: string[];
 }
 const hero_contact: DataType = {
-  title: "Digital Product Design",
-  description: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digita`,
+  title: "Gas Spring Monitor Arms",
+  description: `Indalio specializes in manufacturing premium gas spring monitor arms that provide smooth, effortless height and angle adjustments. Our ergonomic solutions enhance workspace comfort and productivity, reducing neck and back strain while maximizing desk space efficiency.`,
   features: [
-    `Design Welcome to our digital agency!`,
-    `Dev online. From website design`,
-    `Implementation evolving world of digital to driv`,
-    `Launch growth and reach your goals.`,
+    `Smooth Gas Spring Technology for effortless adjustment`,
+    `360° rotation and tilt capabilities for optimal viewing`,
+    `Heavy-duty construction supporting up to 10kg monitors`,
+    `Cable management system for organized workspace`,
   ]
 }
 const { title, description, features } = hero_contact

@@ -10,7 +10,8 @@ import React from 'react';
 
 
 // export const metadata = {
-//   title: "Faq Vixan - Digital  Creative Agency Next js Template",
+//   title: "FAQ - Indalio Premium Workspace Accessories | Common Questions",
+//   description: "Find answers to frequently asked questions about Indalio monitor arms, installation, VESA compatibility, warranty, and product specifications.",
 // };
 
 const index = () => {

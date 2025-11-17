@@ -37,13 +37,13 @@ const SubscribeHomeOne = () => {
           <div className="cs_section_heading cs_style_1 cs_color_1 text-center">
             <div className="cs_section_heading_text">
               <h2 className="cs_section_title anim_text_upanddowns">
-                Stay Ahead With Our Top Notch <br />Digital Services
+                Stay Updated With Indalio's <br />Ergonomic Solutions
               </h2>
             </div>
           </div>
           <div className="cs_height_70 cs_height_lg_40"></div>
           <form className="cs_newsletter_form" onSubmit={handleSuubmit}>
-            <input type="text" className="cs_newsletter_input" placeholder="Enter Your Email" />
+            <input type="text" className="cs_newsletter_input" placeholder="Enter Your Email for Product Updates" />
             <button className="cs_newsletter_btn">
               <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path

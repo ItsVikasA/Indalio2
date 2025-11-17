@@ -9,23 +9,23 @@ interface DataType {
 const service_data: DataType[] = [
   {
     id: 'one',
-    title: "Understand",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Design Engineering",
+    description: `Ergonomic design focused on user comfort and workspace optimization with precision CAD modeling`,
   },
   {
     id: 'Two',
-    title: "Design",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Material Selection",
+    description: `High-grade aluminum and steel components ensuring durability and long-lasting performance`,
   },
   {
     id: 'Three',
-    title: "Development",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Manufacturing",
+    description: `State-of-the-art production facility in Ludhiana with strict quality control measures`,
   },
   {
     id: 'Four',
-    title: "Testing",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Quality Testing",
+    description: `Rigorous load testing and movement validation to ensure product reliability and safety`,
   },
 ]
 
@@ -38,12 +38,12 @@ const ServiceAreaDetails = () => {
         <div className="container">
           <div className="cs_work cs_work_text">
             <h4 className="anim_heading_title">
-              Specialization & Working Process
+              Specialization & Manufacturing Process
             </h4>
             <p className="cs_mp0 anim_text">
-              Welcome to our digital agency! We specialize in helping businesses like yours succeed online.
-              From website design and development to digital marketing and advertising, we have the tools and
-              expertise to elevate your online presence.
+              Indalio specializes in manufacturing premium ergonomic monitor arms and cable management solutions.
+              From initial design and material selection to precision manufacturing and quality testing, we ensure
+              every product meets international standards for workspace ergonomics.
             </p>
           </div>
           <div className="cs_height_80 cs_height_lg_40"></div>

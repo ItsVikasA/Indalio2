@@ -2,8 +2,8 @@
 import React from 'react';
 
 import Image from 'next/image';
-import service_slider_1 from "@/assets/img/service_slider_1.jpg";
-import service_slider_2 from "@/assets/img/service_slider_2.jpg";
+import service_slider_1 from "@/assets/img/monitor-arm-13.png";
+import service_slider_2 from "@/assets/img/monitor-arm-19.png";
 
 const DetailsBanner = () => {
   return (

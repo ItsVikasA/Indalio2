@@ -9,7 +9,8 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import React from 'react';
 
 // export const metadata = {
-//   title: "Blog Vixan - Digital  Creative Agency Next js Template",
+//   title: "Blog - Indalio | Ergonomic Workspace Solutions & Monitor Arm Insights",
+//   description: "Explore Indalio's blog for expert insights on ergonomic workspace design, monitor arm technology, cable management, and productivity tips for modern offices.",
 // };
 
 const index = () => {

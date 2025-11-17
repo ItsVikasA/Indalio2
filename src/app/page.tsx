@@ -20,7 +20,8 @@ import Wrapper from '@/layouts/Wrapper';
 
 
 // export const metadata = {
-//   title: "Vixan - Digital  Creative Agency Next js Template",
+//   title: "Indalio - Premium Workspace Accessories | Ergonomic Monitor Arms & Cable Management",
+//   description: "Discover Indalio's premium gas spring monitor arms, wall-mounted solutions, and cable organizers. Engineered in Ludhiana for superior ergonomics and workspace optimization.",
 // };
 
 

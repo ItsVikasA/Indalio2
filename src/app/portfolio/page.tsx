@@ -11,7 +11,8 @@ import React from 'react';
 
 
 // export const metadata = {
-//   title: "Portfolio Vixan - Digital  Creative Agency Next js Template",
+//   title: "Portfolio - Indalio Workspace Solutions | Project Showcase",
+//   description: "View Indalio's portfolio of successful workspace installations, corporate projects, and ergonomic office setups featuring our premium monitor arms.",
 // };
 
 

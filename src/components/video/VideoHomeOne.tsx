@@ -12,7 +12,7 @@ const VideoHomeOne = ({style_2} : any) => {
             <a 
               className="cs_video_block cs_style1 cs_video_open cs_bg cs_parallax_bg"
               href="https://www.youtube.com/watch?v=zE_WFiHnSlY"
-              style={{ backgroundImage: 'url(/assets/img/video_block.jpg)', cursor: "pointer" }}>
+              style={{ backgroundImage: 'url(/assets/img/monitor-arm-18.png)', cursor: "pointer" }}>
               <span className="cs_player_btn cs_accent_color">
                 <span></span>
               </span>

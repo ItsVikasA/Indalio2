@@ -2,7 +2,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import footer_logo from "@/assets/img/footer_logo.svg";
 import { CopyRight, SocialLinks } from '@/components/common/SocialLinks';
 
 interface DataType {
@@ -17,17 +16,17 @@ interface DataType {
 }
 
 const footer_data: DataType = {
-  email: `info@email.com`,
-  phone: `(406) 555-0120`,
-  location: `46 JOHN ST TORONTO ON M5V 3W2`,
-  footer_info: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development.`,
+  email: `business@indalio.com`,
+  phone: `+919988092664`,
+  location: `Jaspal Bangar, Ind Area C, Ludhiana 141122`,
+  footer_info: `Indalio - Premium workspace accessories engineered in Ludhiana. Specializing in gas spring monitor arms, wall-mounted solutions, and cable management systems for modern workspaces.`,
   links: [
     { title: `HOME`, link: "/" },
     { title: `ABOUT`, link: "/about" },
     { title: `SERVICES`, link: "/service" },
     { title: `PORTFOLIO`, link: "/portfolio" },
     { title: `BLOG`, link: "/blog" },
-    { title: `CONTACT US`, link: "/contact" },
+    { title: `CONTACT US`, link: "/contact" }
   ]
 }
 const { footer_info, email, links, location, phone } = footer_data
@@ -41,10 +40,12 @@ const FooterOne = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="cs_footer_info">
-                <Image src={footer_logo} alt="Logo" />
+                <h2 style={{fontSize: '32px', fontWeight: '700', color: '#ffffff', letterSpacing: '1px', marginBottom: '20px'}}>
+                  Indalio
+                </h2>
                 <p>{footer_info}</p>
                 <a href={`mailto:${email}`}
-                  className="cs_primary_font anim_text_upanddowns"><span>{email}</span></a>
+                  className="cs_primary_font anim_text_upanddowns" style={{wordBreak: 'break-all', display: 'inline-block'}}><span>{email}</span></a>
               </div>
             </div>
             <div className="col-lg-6 offset-lg-1">

@@ -13,7 +13,8 @@ import React from 'react';
 
 
 // export const metadata = {
-//   title: "Service Vixan - Digital  Creative Agency Next js Template",
+//   title: "Products & Services - Indalio Premium Workspace Accessories",
+//   description: "Explore Indalio's range of gas spring monitor arms, dual monitor solutions, wall-mounted arms, and spinal cable organizers for modern workspaces.",
 // };
 
 const index = () => {

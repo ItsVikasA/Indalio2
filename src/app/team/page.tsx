@@ -9,7 +9,8 @@ import AboutHomeFour from '@/components/about/AboutHomeFour';
 
 
 // export const metadata = {
-//   title: "Team Vixan - Digital  Creative Agency Next js Template",
+//   title: "Our Team - Indalio Premium Workspace Accessories | Expert Engineers",
+//   description: "Meet the Indalio team of engineers and designers dedicated to creating innovative ergonomic workspace solutions and premium monitor arms.",
 // };
 
 

@@ -19,34 +19,34 @@ const service_faq_content: DataType = {
   faq_data: [
     {
       id: 'One',
-      question: `What is the design process for branding?`,
-      answer: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`,
+      question: `What makes Indalio monitor arms different?`,
+      answer: `Indalio monitor arms feature premium gas spring technology that provides smooth, effortless adjustments throughout the day. Our products are manufactured in Ludhiana with precision engineering and high-grade materials, ensuring durability and long-lasting performance. Each monitor arm supports up to 10kg and includes integrated cable management for a clean workspace.`,
     },
     {
       id: 'Two',
-      question: `What services does your agency offer?`,
-      answer: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`,
+      question: `What products does Indalio offer?`,
+      answer: `Indalio specializes in three main product categories: Gas Spring Monitor Arms with 360° rotation and tilt capabilities, Wall-Mounted Solutions for space optimization, and Cable Management Systems for organized workspaces. All our products are designed with ergonomics in mind to reduce neck and back strain while improving productivity.`,
     },
     {
       id: 'Three',
-      question: `How do you approach a new project?`,
-      answer: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`,
+      question: `How do I choose the right monitor arm?`,
+      answer: `Consider your monitor size and weight (we support up to 10kg), desk configuration, and mounting preference (desk clamp or grommet). Our gas spring arms are ideal for frequent adjustments, while wall-mounted options maximize desk space. Contact us at business@indalio.com or +919988092664 for personalized recommendations based on your workspace needs.`,
     },
     {
       id: 'Four',
-      question: `How do you handle revisions or changes to a project?`,
-      answer: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`,
+      question: `Do you provide installation support and warranty?`,
+      answer: `Yes, all Indalio products come with comprehensive installation instructions and mounting hardware. We provide technical support through email and phone for any installation queries. Our monitor arms are backed by a warranty covering manufacturing defects, ensuring your investment is protected. For bulk orders and commercial projects, we offer on-site installation assistance in select regions.`,
     },
   ],
-  title: `Others Services List`,
-  description: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence.`,
+  title: `Product Categories`,
+  description: `Indalio manufactures premium ergonomic workspace solutions from our facility in Ludhiana. Specializing in gas spring monitor arms, wall-mounted solutions, and cable management systems designed for modern offices.`,
   features: [
-    `Web Design & Development`,
-    `Digital Marketing`,
-    `Android & IOS Development`,
-    `Digital Business Development`,
-    `Web Design & Development`,
-    `Digital Marketing`,
+    `Gas Spring Monitor Arms`,
+    `Wall-Mounted Solutions`,
+    `Cable Management Systems`,
+    `Dual Monitor Arms`,
+    `Heavy-Duty Monitor Mounts`,
+    `Desk Accessories`,
   ]
 }
 const {

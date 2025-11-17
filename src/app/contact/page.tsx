@@ -7,7 +7,8 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import React from 'react';
 
 // export const metadata = {
-//   title: "Contact Vixan - Digital  Creative Agency Next js Template",  
+//   title: "Contact Indalio - Premium Workspace Accessories | Get a Quote",
+//   description: "Contact Indalio for ergonomic workspace solutions. Discuss your monitor arm requirements, cable management needs, and custom workspace setups.",
 // };
 
 

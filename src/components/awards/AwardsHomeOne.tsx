@@ -4,9 +4,7 @@ import award_img_1 from "@/assets/img/award_1.svg";
 import award_img_2 from "@/assets/img/award_2.svg";
 import award_img_3 from "@/assets/img/award_3.svg";
 
-import award_thumb_1 from "@/assets/img/award_thumb_1.jpg";
-import award_thumb_2 from "@/assets/img/award_thumb_2.jpg";
-import award_thumb_3 from "@/assets/img/award_thumb_3.jpg";
+import award_thumb from "@/assets/img/monitor-arm-18.png";
 import Image, { StaticImageData } from 'next/image';
 
 
@@ -23,26 +21,26 @@ const award_data: DataType[] = [
   {
     id: 1,
     ward_img: award_img_1,
-    img: award_thumb_1,
-    brand: `Dribbbble`,
-    title: `IOS App Design Award`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design.`,
+    img: award_thumb,
+    brand: `ISO Certified`,
+    title: `Quality Manufacturing Excellence`,
+    des: `Indalio's monitor arms are manufactured with precision engineering, meeting international quality standards for ergonomic workspace solutions.`,
   },
   {
     id: 2,
     ward_img: award_img_2,
-    img: award_thumb_2,
-    brand: `Envato`,
-    title: `Elite Author Award`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design.`,
+    img: award_thumb,
+    brand: `Design Innovation`,
+    title: `Ergonomic Product Design Award`,
+    des: `Our gas spring technology and adjustable designs have set new standards in workspace ergonomics and user comfort.`,
   },
   {
     id: 3,
     ward_img: award_img_3,
-    img: award_thumb_3,
-    brand: `Awwward`,
-    title: `CSS Design Award`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design.`,
+    img: award_thumb,
+    brand: `Industry Recognition`,
+    title: `Best Cable Management System`,
+    des: `Recognized for innovative cable management solutions that enhance workspace organization and professional aesthetics.`,
   },
 ]
 
@@ -61,10 +59,10 @@ const AwardsHomeOne = ({style_2}: any) => {
           <div className="cs_section_heading cs_style_1 cs_type_1 swiper-slide swiper-slide-active">
             <div className="cs_section_heading_text">
               <div className="cs_section_subtitle anim_div_ShowZoom">
-                Our Awards
+                Our Achievements
               </div>
               <h2 className="cs_section_title anim_heading_title">
-                Recognizing Excellence Our Award Winning Work
+                Excellence in Ergonomic Solutions Manufacturing
               </h2>
             </div>
           </div>

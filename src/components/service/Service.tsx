@@ -10,23 +10,23 @@ interface DataType {
 const service_data: DataType[] = [
   {
     id: 'one',
-    title: "Understand",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Ergonomic Design",
+    description: `Premium gas-spring technology ensures smooth, effortless adjustments for optimal viewing comfort and reduced neck strain`,
   },
   {
     id: 'Two',
-    title: "Design",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Space Optimization",
+    description: `Clamp and grommet mounting options free up valuable desk space while providing rock-solid stability`,
   },
   {
     id: 'Three',
-    title: "Development",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Full Adjustability",
+    description: `360° rotation, tilt, swivel, and height adjustment capabilities for perfect screen positioning in any workspace`,
   },
   {
     id: 'Four',
-    title: "Testing",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    title: "Cable Management",
+    description: `Integrated cable routing systems keep your workspace clean, organized, and professional-looking`,
   },
 ]
 const Service = () => {
@@ -42,7 +42,7 @@ const Service = () => {
               <div className="cs_section_heading cs_style_1 cs_color_1">
                 <div className="cs_section_heading_text">
                   <h2 className="cs_section_title anim_heading_title">
-                    Our Working Process
+                    Key Product Features
                   </h2>
                 </div>
               </div>

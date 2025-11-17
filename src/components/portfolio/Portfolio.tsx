@@ -5,12 +5,14 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
 
-import portfolio_img_6 from "@/assets/img/portfolio_1.jpg";
-import portfolio_img_7 from "@/assets/img/portfolio_2.jpg";
-import portfolio_img_8 from "@/assets/img/portfolio_3.jpg";
-import portfolio_img_9 from "@/assets/img/portfolio_5.jpg";
-import portfolio_img_10 from "@/assets/img/portfolio_6.jpg";
-import portfolio_img_11 from "@/assets/img/portfolio_7.jpg"; 
+import portfolio_img_6 from "@/assets/img/monitor-arm-10.png";
+import portfolio_img_7 from "@/assets/img/monitor-arm-12.png";
+import portfolio_img_8 from "@/assets/img/monitor-arm-13.png";
+import portfolio_img_9 from "@/assets/img/monitor-arm-15.png";
+import portfolio_img_10 from "@/assets/img/monitor-arm-16.png";
+import portfolio_img_11 from "@/assets/img/monitor-arm-17.png";
+import portfolio_img_12 from "@/assets/img/monitor-arm-18.png";
+import portfolio_img_13 from "@/assets/img/monitor-arm-19.png"; 
 
 
 interface DataType {
@@ -25,45 +27,59 @@ const portfolio_data: DataType[] = [
   // portfolio pages
 	{
 		id: 1,
-		category: 'UI Design',
+		category: 'Single Arm',
 		img: portfolio_img_6,
-		title: "Project Task Management",
-		des: "Digital Services / App Design",
+		title: "Gas Spring Single Monitor Arm",
+		des: "Ergonomic Solutions / Office Setup",
 	},
 	{
 		id: 2,
-		category: 'UX Design',
+		category: 'Dual Arm',
 		img: portfolio_img_7,
-		title: "Project Task Management",
-		des: "Digital Services / App Design",
+		title: "Dual Monitor Workstation",
+		des: "Professional Setup / Multi-Screen",
 	},
 	{
 		id: 3,
-		category: 'Development',
+		category: 'Wall Mount',
 		img: portfolio_img_8,
-		title: "Project Task Management",
-		des: "Digital Services / App Design",
+		title: "Wall-Mounted Monitor Solution",
+		des: "Space Saving / CCTV Setup",
 	},
 	{
 		id: 4,
-		category: 'Finance',
+		category: 'Single Arm',
 		img: portfolio_img_9,
-		title: "Project Task Management",
-		des: "Digital Services / App Design",
+		title: "Premium Gas Spring Arm",
+		des: "Corporate Office / Ergonomic",
 	},
 	{
 		id: 5,
-		category: 'UX Design',
+		category: 'Dual Arm',
 		img: portfolio_img_10,
-		title: "Project Task Management",
-		des: "Digital Services / App Design",
+		title: "Trading Desk Setup",
+		des: "Multi-Monitor / Professional",
 	},
 	{
 		id: 6,
-		category: 'UI Design',
+		category: 'Wall Mount',
 		img: portfolio_img_11,
-		title: "Project Task Management",
-		des: "Digital Services / App Design",
+		title: "Wall-Mounted Display Arm",
+		des: "Retail / Compact Workspace",
+	},
+	{
+		id: 7,
+		category: 'Single Arm',
+		img: portfolio_img_12,
+		title: "Adjustable Monitor Arm",
+		des: "Home Office / WFH Setup",
+	},
+	{
+		id: 8,
+		category: 'Cable Management',
+		img: portfolio_img_13,
+		title: "Spinal Cable Organizer",
+		des: "Cable Management / Clean Desk",
 	},
 ]
 
@@ -97,7 +113,7 @@ const Portfolio = () => {
           <div className="cs_section_heading cs_style_1 cs_type_1">
             <div className="cs_section_heading_text">
               <h2 className="cs_section_title anim_text_writting">
-                Some Recent Project We Successfully Done
+                Indalio Product Portfolio - Premium Workspace Solutions
               </h2>
             </div>
           </div>
@@ -148,13 +164,6 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="cs_height_70 cs_height_lg_30"></div>
-          <div>
-            <div className="cs_hero_btn_wrap text-center">
-              <div className="cs_round_btn_wrap">
-                <a href="#" className="cs_hero_btn cs_round_btn btn-item"><span></span> Load More</a>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </>
