@@ -16,7 +16,7 @@ import FooterOne from '@/layouts/footers/FooterOne';
 
 
 // export const metadata = {
-//   title: "Creative Protfolio Vixan - Digital  Creative Agency Next js Template",
+//   title: "Creative Protfolio Indalio - Digital  Creative Agency Next js Template",
 // };
 
 

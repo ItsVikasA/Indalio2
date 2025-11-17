@@ -9,7 +9,7 @@ import TeamDetailsArea from '@/components/details/TeamDetailsArea';
 
 
 // export const metadata = {
-//   title: "Team Details Vixan - Digital  Creative Agency Next js Template",
+//   title: "Team Details Indalio - Digital  Creative Agency Next js Template",
 // };
 
 const index = () => {

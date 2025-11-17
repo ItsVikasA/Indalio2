@@ -1,6 +1,6 @@
 /* 
 |......................................................................
-| Template Name: Vixan
+| Template Name: Indalio
 | Author: Thememarch
 | Version: 1.0.0
 |--------------------------------------------------------------------------
@@ -2095,6 +2095,7 @@ label {
 
 .cs_scrollup.cs_scrollup_show {
   bottom: 50px;
+  z-index: 999999;
 }
 
 .cs_case_study {
@@ -2196,7 +2197,6 @@ label {
   height: 163px;
   letter-spacing: 2px;
   font-weight: 500;
-  z-index: -1;
   font-family: Inter Tight;
 }
 .cs_animated_badge .rounded_text svg {
@@ -2247,7 +2247,7 @@ label {
   transition: 0.3s ease;
 }
 
-.cs_input_field:-moz-placeholder-shown ~ .cs_input_label {
+.cs_input_field:-moz-placeholder ~ .cs_input_label {
   top: 20px;
   font-size: 18px;
 }
@@ -2546,7 +2546,6 @@ label {
 }
 
 .reveal {
-  visibility: hidden;
   overflow: hidden;
   position: relative;
 }
@@ -2630,15 +2629,19 @@ label {
 .cs_slider_3 .swiper-slide {
   width: 420px;
 }
-.cs_slider_3 .swiper-slide:nth-child(odd) {
-  margin-top: 45px;
-}
 .cs_slider_3.cs_vw_none {
   width: 100%;
 }
 
 .cs_slider_3.cs_row_slider .swiper-slide:nth-child(odd) {
   margin-top: 0;
+}
+
+.style_slider .swiper-slide {
+  width: 420px;
+}
+.style_slider .swiper-slide:nth-child(odd) {
+  margin-top: 45px;
 }
 
 .cs_slider_4 {
@@ -3529,10 +3532,8 @@ label {
     transform: translate(-50%, -50%) rotate(0deg);
   }
   .cs_nav .cs_nav_list .cs_mega_wrapper {
-    width: 520px !important;
     left: 50%;
     transform: translateX(-50%);
-    display: flex !important;
     position: absolute;
     flex-wrap: wrap;
     padding: 5px 15px 10px;
@@ -4129,7 +4130,6 @@ label {
   content: "";
   width: 14px;
   height: 12px;
-  /* background: url("../img/icons/double_arrow_icon.svg"); */
   background-position: center;
   position: absolute;
   left: 0;
@@ -4379,7 +4379,6 @@ label {
   min-height: 100vh;
   overflow: hidden;
   background-color: var(--cr_banner-color);
-  z-index: -12;
 }
 .cs_hero.cs_style3.cs_bg_color .cs_banner_img {
   position: absolute;
@@ -4502,6 +4501,10 @@ label {
   transform: rotate(90deg);
 }
 
+.social_link_style {
+  margin: 0px 10px;
+}
+
 /* end hero 5 */
 .cs_round_btn_wrap {
   padding: 15px;
@@ -4534,9 +4537,6 @@ label {
   transition: all 0.7s;
   transform: translate(-50%, -50%);
 }
-.cs_round_btn:hover {
-  color: var(--drak-color);
-}
 .cs_round_btn:hover span {
   height: 400px;
   width: 400px;
@@ -4544,8 +4544,7 @@ label {
 }
 
 .swiper-slide .cs_hero.cs_style1 .cs_hero_mini_title {
-  -webkit-clip-path: inset(0 100% 0 0);
-          clip-path: inset(0 100% 0 0);
+  clip-path: inset(0 100% 0 0);
   transition: all 0.65s ease;
 }
 .swiper-slide .cs_hero.cs_style1 .cs_hero_title,
@@ -4564,8 +4563,7 @@ label {
   transition: all 0.65s ease-in-out;
 }
 .swiper-slide.swiper-slide-active .cs_hero.cs_style1 .cs_hero_mini_title {
-  -webkit-clip-path: inset(0 0% 0 0);
-          clip-path: inset(0 0% 0 0);
+  clip-path: inset(0 0% 0 0);
   transition-delay: 0.75s;
 }
 .swiper-slide.swiper-slide-active .cs_hero.cs_style1 .cs_hero_title,
@@ -4846,8 +4844,7 @@ label {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
-  -webkit-clip-path: inset(0 100% 0 0);
-          clip-path: inset(0 100% 0 0);
+  clip-path: inset(0 100% 0 0);
   animation: inactiveImageAnimation1 0.6s forwards ease;
 }
 .cs_iconbox_3_list .cs_hover_tab.active .cs_image_layer img {
@@ -4901,22 +4898,18 @@ label {
 
 @keyframes inactiveImageAnimation1 {
   0% {
-    -webkit-clip-path: inset(0 0 0 0);
-            clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0);
   }
   100% {
-    -webkit-clip-path: inset(0 100% 0 0);
-            clip-path: inset(0 100% 0 0);
+    clip-path: inset(0 100% 0 0);
   }
 }
 @keyframes activeImageAnimation1 {
   0% {
-    -webkit-clip-path: inset(0 0 0 100%);
-            clip-path: inset(0 0 0 100%);
+    clip-path: inset(0 0 0 100%);
   }
   100% {
-    -webkit-clip-path: inset(0 0 0 0);
-            clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0);
   }
 }
 @media screen and (max-width: 1199px) {
@@ -5294,7 +5287,6 @@ label {
      object-fit: cover;
   background-position: center;
   transition: all 0.5s ease;
-  z-index: -100;
 }
 .cs_team_section .cs_team_img .cs_team_text {
   z-index: 200;
@@ -5338,6 +5330,7 @@ label {
   background: linear-gradient(0deg, rgba(10, 10, 10, 0.774), rgba(0, 0, 0, 0));
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
 }
 
 /* end teams images */
@@ -5626,13 +5619,13 @@ label {
 .cs_creative_protfolio_menu ul li {
   cursor: pointer;
 }
-.cs_creative_protfolio_menu ul li:nth-child(1) {
-  color: #ff6b00;
-}
 .cs_creative_protfolio_menu ul li:active {
   color: #ff6b00;
 }
 .cs_creative_protfolio_menu ul li:hover {
+  color: #ff6b00;
+}
+.cs_creative_protfolio_menu ul .active {
   color: #ff6b00;
 }
 
@@ -5647,13 +5640,10 @@ label {
 .cs_isotop_item_menu ul li {
   cursor: pointer;
 }
-.cs_isotop_item_menu ul li:nth-child(1) {
-  color: #ff6b00;
-}
-.cs_isotop_item_menu ul li:active {
-  color: #ff6b00;
-}
 .cs_isotop_item_menu ul li:hover {
+  color: #ff6b00;
+}
+.cs_isotop_item_menu ul .active {
   color: #ff6b00;
 }
 
@@ -5754,7 +5744,7 @@ label {
   line-height: 1.6em;
 }
 .cs_portfolio.cs_style_1 .cs_portfolio_subtitle.cs_color_1 {
-  color: var(--common-color-white);
+  color: #fff;
 }
 .cs_portfolio.cs_style_1:hover .cs_portfolio_overlay {
   opacity: 1;
